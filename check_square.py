@@ -9,9 +9,9 @@ def is_square(n):
         
     return status
 
-x = int(input ('Enter a number : '))
-return_status = is_square(x)
+num = int(input ('Enter a number : '))
+return_status = is_square(num)
 if return_status == True:
-    print(f'{x} is a Perfect square')
+    print(f'{num} is a "Perfect square"')
 else:
-    print(f'{x} is not a Perfect square')
+    print(f'{num} is not a Perfect square')
