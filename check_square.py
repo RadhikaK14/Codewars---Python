@@ -15,3 +15,9 @@ if return_status == True:
     print(f'{num} is a "Perfect square"')
 else:
     print(f'{num} is not a Perfect square')
+
+# ALTERNATE SOLUTION
+# from math import sqrt
+
+# def is_square(n):    
+#     return n>=0 and sqrt(n).is_integer()
