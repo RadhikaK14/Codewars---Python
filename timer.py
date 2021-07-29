@@ -1,6 +1,6 @@
 from time import sleep
 
-timer = 10
+timer = 5
 print('Loading')
 
 while timer > 0:
@@ -9,3 +9,4 @@ while timer > 0:
     timer -= 1
 
 print('Complete!')
+
